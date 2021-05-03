@@ -1,0 +1,322 @@
+    
+    *{
+          margin: 0;
+          padding: 0;
+      }
+      
+     
+   body{
+    background-color: rgba(22, 201, 236, 0.979);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 40px;
+  
+  }  
+  
+  .hed1{
+    width: 70%;
+    background-color: rgb(0,0,0,0.4);
+    margin:auto;
+    color: red;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    font-weight: bold;
+  }
+  
+  .hed2{
+    width: 70%;
+    background-color:rgba(0, 0, 0, 0.767);
+    margin:auto;
+    color: deeppink;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px; 
+  
+  }
+  
+  .hed22{
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.541);
+    margin:auto;
+    color: deeppink;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px; 
+    
+  }
+  
+  .main{
+    
+    background-color: rgba(16, 20, 16, 0.767);
+     width: 70%;
+     margin:auto;
+     height: 900px;
+  }
+  
+ 
+  
+   .Fullname{
+    position: relative;
+    left: 160px;
+    top:-5px;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 30px;
+    font-size: 16px;
+   }
+  
+  .idn{
+    position: relative;
+    left: 115px;
+    top:-5px;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 30px;
+    font-size: 16px;
+  }
+  .age{
+    position: relative;
+    left: 176px;
+    top:-5px;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 30px;
+    font-size: 16px;
+  }
+  .phn{
+    position: relative;
+    left: 76px;
+    top:-5px;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 30px;
+    font-size: 16px;
+  }
+  .em{
+    position: relative;
+    left: 160px;
+    top:-5px;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 30px;
+    font-size: 16px;
+  }
+  .coun{
+    position: relative;
+    left: 140px;
+    top:-5px;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 30px;
+    font-size: 16px;
+  }
+  .cit{
+    position: relative;
+    left: 176px;
+    top:-5px;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 30px;
+    font-size: 16px;
+  }
+  .add{
+    position: relative;
+    left: 135px;
+    top:-5px;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 30px;
+    font-size: 16px; 
+  
+  }
+  .emer{
+    position: relative;
+    left: 31px;
+    top:-5px;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 30px;
+    font-size: 16px;
+  }
+  .dat{
+    position: relative;
+    left: 169px;
+    top:-5px;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 5px;
+    font-size: 16px;
+  }
+  .option{
+    position:relative;
+    left: 140px;
+    line-height: 40px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    outline: none;
+    overflow: hidden;
+  }
+  .option option{
+    font-size: 30px;
+  }
+  
+  .rad{
+    display: inline-block;
+    padding-right: 50px;
+    font-size: 25px;
+    margin-left: 90px;
+    margin-top: 15px;
+    color: white;
+  }
+  .rad input{
+     width: 20px;
+     height: 20px;
+     border-radius:  50px;
+     cursor: pointer;
+     outline: none;
+  }
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+
+  .user{
+    position: relative;
+    left: 163px;
+    top:-5px;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 30px;
+    font-size: 16px; 
+  }
+  
+  .pass{
+    position: relative;
+    left: 119px;
+    top:-5px;
+    line-height: 30px;
+    border-radius: 6px;
+    padding: 0 30px;
+    font-size: 16px; 
+  }
+
+  label{
+      
+     margin-left: 30px; 
+     color: rgba(22, 201, 236, 0.979);
+     font-size: larger;
+     font-weight: bold;
+  }
+  input:invalid{
+    color: red;
+    border: red solid; 
+    enable-background: red;
+    
+    
+  }
+   
+    .buton{
+     color:deeppink;
+     width: 200px;
+     margin-left: 350px;
+     font-size:x-large;
+     font-weight: bold;
+   }
+   button:hover{
+     box-shadow: 0 0 40px deeppink;
+   }
+
+     input::-webkit-outer-spin-button,
+     input::-webkit-inner-spin-button {
+         -webkit-appearance: none;
+         margin: 0;
+     }
+     input:focus{
+       box-shadow: 0 0 40px rgb(250, 249, 249);
+     }
+
+     
+    
+   @media only screen and (max-width: 768px){
+    *{
+      margin: 0;
+      padding: 0;
+     }
+    
+    .hed1{
+      width: 600px;
+      margin-top: 100px;
+      background-color: rgb(255, 253, 255);
+      color: deeppink;
+      padding: 10px 0px 10px 0px;
+      text-align: center;
+      border-radius: 15px 15px 0px 0px;
+      margin-left:15px;
+      font-weight: bold;
+    }
+    
+   .hed2{
+      width: 600px;
+      background-color:rgb(235, 26, 235);
+      color: rgba(245, 240, 243, 0.932);
+      padding: 10px 0px 10px 0px;
+      text-align: center;
+      border-radius: 15px 15px 0px 0px; 
+      margin-left: 10px;
+    
+    }
+
+    .hed22{
+      width: 600px;
+      background-color:rgb(235, 26, 235);
+      color: rgba(245, 240, 243, 0.932);
+      padding: 10px 0px 10px 0px;
+      text-align: center;
+      border-radius: 15px 15px 0px 0px; 
+      margin-left: 0px;
+    }
+
+    .main{
+    
+      background-color: rgb(92, 27, 92);
+      width:600px;
+      height: 900px;
+      margin-left: 10px;
+    } 
+
+    label{
+      
+      margin-left: 30px; 
+      color: rgb(244, 247, 248);
+      font-size: larger;
+      font-weight: bold;
+   }
+    
+    .buton{
+      color:deeppink;
+      width: 200px;
+      margin-left: 220px;
+      font-size:x-large;
+      font-weight: bold;
+    }
+
+    body{
+      background-color: rgb(255, 255, 255);
+      background-position: center;
+      background-size: cover;
+      font-family: sans-serif;
+      margin-top: 40px;
+    
+    }  
+
+  }

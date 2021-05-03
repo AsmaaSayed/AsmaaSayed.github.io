@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Registration form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <link rel="stylesheet" href="style.css">
+     <script src='script.js'></script> 
+</head>
+<body>
+  <h1 class="hed1">Registeration Form</h1>
+ <br>
+  <h2 class="hed2">Enter the patient's information,please</h2> 
+  
+  <div class="main" id="register" name="register">
+  
+  <label for="">Name</label> 
+  <input class="Fullname" id="fname" type="text" placeholder="Enter full name" >
+ 
+  <br> <br>
+  <label for="id">ID Number</label>
+  <input class="idn" type="number" name="id" id="idn" size="14" maxlength="14">
+
+  <br> <br>
+  <label for="">Age</label>
+  <input class="age" type="number" min="1" id="ag">
+
+    <br> <br>
+  <label for="">Phone Number</label>
+  <input class="phn" type="number"  id="phn" min="0">
+
+  <br> <br>
+  <label for="">Email</label>
+  <input class="em" type="email" id="em" placeholder="your@email.com">
+
+  <br> <br>
+  <label for="">Country</label>
+  <input class="coun" type="text" id="coun">
+
+  <br> <br>
+  <label for="">City</label>
+  <input class="cit" type="text" id="cit">
+
+  <br> <br>
+  <label for="">Address</label>
+  <input class="add" type="text" id="add">
+
+  <br> <br>
+  <label for="">Emergency Contact</label>
+  <input class="emer" type="number"  id="emer">
+
+  <br> <br>
+  <label for="">Date</label>
+  <input class="dat" type="datetime-local"  id="dat">
+
+
+  <br> <br>
+  <!--
+  <label for="">Gender</label>
+  <select name="Grnder" class="option">
+  <option disabled="disabled" selected="selected">--Choose option</option>
+  <option value="">Male</option>
+  <option value="">Female</option>
+  </select>
+  -->
+  
+  <label for="">Gender</label>
+  
+  <label class="rad">
+    <input class="radio-one" type="radio" name="radio" id="male" value="male">
+    <span class="checkmark"></span>
+    Male
+  </label>
+
+  <label class="rad">
+    <input class="radio-two" type="radio" name="radio" id="female" value="female" >
+    <span class="checkmark"></span>
+    Female
+  </label>
+   
+  <br> <br> <br> <br>
+  <h2 class="hed22">Enter your WiFi network</h2>
+
+  <br> <br>
+  <label for="">SSID   </label>
+  <input class="user" type="text"  id="user">
+
+  <br> <br>
+  <label for="">Password</label>
+  <input class="pass" type="password"  id="pass">
+
+  <br> <br> <br> <br>
+  <button type="submit" class="buton" id="submit" onclick="save()">Send</button>
+
+</div>
+  
+</body>
+</html>
